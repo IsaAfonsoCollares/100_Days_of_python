@@ -5,7 +5,7 @@ Development:
 In this project I used basic python language commands such as print, input, creating lists, defining variables, if's and for and while loops, in addition to the random package to randomize the choice of word and definition of functions.  
 To increase the difficulty level, a while loop was used so that the user could decide to run the program again without having to restart it, two if's to choose the game's language and package imports to access the logo arts and the design of the force at different stages.  
   
-Portuguese  
+Português  
 Projeto feito para o curso 100 Days of Code: The Complete Python Pro Bootcamp for 2022  
 Objetivo: Criar um jogo da Forca  
 Desenvolvimento:  

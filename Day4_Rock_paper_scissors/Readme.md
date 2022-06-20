@@ -6,7 +6,7 @@ In this project I used basic python language commands such as print, input, list
 To increase the level of difficulty, a while loop was used so that the user could decide to run the program again without having to restart it and the Sam Kass' version of the game (rock, paper, scissors, lizard, spock) was added to the program. The rules for this version can be found in the link below.  
 http://www.samkass.com/theories/RPSSL.html  
   
-Portuguese  
+Português  
 Projeto feito para o curso 100 Days of Code: The Complete Python Pro Bootcamp for 2022  
 Objetivo: Criar um jogo de Pedra, Papel e Tesoura onde o usuário joga contra o computador  
 Desenvolvimento:  
