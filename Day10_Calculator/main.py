@@ -22,9 +22,9 @@ while close_application == 1:
         first_number=result
         print(f"First number = {first_number}")
     else:
-        first_number =int(input("Please enter the first number: "))
+        first_number =float(input("Please enter the first number: "))
     operator=input("What operation would you like to perform?\nType: + to add\n      - to subtract\n      * to multiply\n      / to divide\n")
-    second_number=int(input("Please enter the second number: "))
+    second_number=float(input("Please enter the second number: "))
     if operator=="+":
         result = add(first_number, second_number)
 
