@@ -14,12 +14,18 @@ class Snake :
         self.head = self.body[0]
 
     def create_snake(self):
-        for positions in INITIAL_POSITIONS:
-            new_part = Turtle("square")
-            new_part.penup()
-            new_part.color("white")
-            new_part.setposition(positions)
-            self.body.append(new_part)
+        for position in INITIAL_POSITIONS:
+            self.add_part(position)
+
+    def add_part(self, position):
+        new_part = Turtle("square")
+        new_part.penup()
+        new_part.color("white")
+        new_part.setposition(position)
+        self.body.append(new_part)
+
+    def extend(self):
+        self.add_part(self.body[-1].position())
 
     def move(self):
         for part in range(len(self.body) - 1, 0, -1):
@@ -43,3 +49,5 @@ class Snake :
     def down(self):
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
+
+

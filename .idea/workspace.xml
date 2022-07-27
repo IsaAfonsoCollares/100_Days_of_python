@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce2fc1bd-d529-4848-8bd8-9eed9b76ea6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Day14_Coffee_Machine/.idea/Day14_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/Day17_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/coffee_maker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17_/money_machine.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BoQfPvAHYPLVQ6ZpdFyZgbIp3g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce2fc1bd-d529-4848-8bd8-9eed9b76ea6b" name="Changes" comment="" />
+      <created>1657570063228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657570063228</updated>
+    </task>
+    <servers />
+  </component>
+</project>
