@@ -3,24 +3,14 @@ FONT = ('Arial', 12, 'bold')
 ALIGNMENT = "center"
 
 
-class Player(Turtle):
-    def __init__(self, player_name, x_position):
-        super().__init__()
-        self.speed(10)
-        self.score = 0
-        self.penup()
-        self.setposition(x_position, 280)
-        self.hideturtle()
-        self.color("white")
-        self.write(f"{player_name}", align=ALIGNMENT, font=FONT)
-
-
 class Line(Turtle):
     def __init__(self):
         super().__init__()
         self.hideturtle()
         self.penup()
-        self.setposition(-350, 260)
+
+    def draw_line(self,y_position):
+        self.setposition(-350, y_position)
         self.color("white")
         self.pendown()
         self.speed(0)
