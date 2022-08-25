@@ -31,5 +31,3 @@ class Scoreboard(Turtle):
                 file.write(f"{self.high_score}")
         self.score = 0
         self.update_scoreboard()
-
-
