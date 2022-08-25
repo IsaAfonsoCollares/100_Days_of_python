@@ -11,8 +11,9 @@ class Player(Turtle):
         self.setheading(90)
         self.penup()
         self.setposition(0, -260)
-        self.y_move = 10
 
     def move(self):
         self.forward(40)
 
+    def reset_position(self):
+        self.goto(0, -260)

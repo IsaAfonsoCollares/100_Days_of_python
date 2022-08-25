@@ -1,16 +1,16 @@
 from turtle import Screen
 from car import Car
-from scoreboard import Line
+from scoreboard import Line, Scoreboard
 from player import Player
 from time import sleep
 
 screen = Screen()
-screen.screensize(600, 550)
+screen.screensize(600, 560)
 screen.bgcolor("black")
 screen.listen()
 screen.tracer(0)
 
-for position in range(0, 300, 40):
+for position in range(0, 320, 40):
     line1 = Line()
     y_position = position
     line1.draw_line(y_position)
@@ -20,6 +20,8 @@ for position in range(0, 300, 40):
 
 
 player = Player()
+
+scoreboard = Scoreboard()
 
 car = Car()
 
@@ -32,7 +34,9 @@ while game_on:
     screen.update()
     sleep(0.1)
     car.move()
-
+    if player.ycor() > 240:
+        scoreboard.point()
+        player.reset_position()
 
 
 
